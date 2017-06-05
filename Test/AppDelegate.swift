@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let rootVC:RootController = RootController();
         //lengting
+        // wangbing
         window = UIWindow(frame:UIScreen.main.bounds);
         window?.rootViewController = rootVC;
         window?.makeKeyAndVisible()
